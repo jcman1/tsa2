@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class CustomerModel extends Model
+class TaskModel extends Model
 {
-    protected $table = 'customers';
+    protected $table = 'tasks';
     protected $primaryKey = 'id';
 
     protected $allowedFields = [
-        'full_name',
-        'email',
-        'phone',
+        'title',
+        'status',
+        'task_date',
         'created_at'
     ];
 }

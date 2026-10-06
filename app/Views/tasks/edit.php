@@ -1,4 +1,4 @@
-<?= view('_header', ['title' => 'Edit Task']) ?>
+<?= view('layout/header', ['title' => 'Edit Task']) ?>
 
 <h1>Edit Task</h1>
 
@@ -40,4 +40,4 @@
 
 </form>
 
-<?= view('_footer') ?>
+<?= view('layout/footer') ?>

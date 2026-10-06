@@ -1,4 +1,4 @@
-<?= view('_header', ['title' => 'Login']) ?>
+<?= view('layout/header', ['title' => 'Login']) ?>
 
 <h1>Login</h1>
 
@@ -41,4 +41,4 @@
 
 </form>
 
-<?= view('_footer') ?>
+<?= view('layout/footer') ?>
